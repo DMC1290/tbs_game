@@ -18,5 +18,13 @@
     <ClCompile Include="tbs_game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="monster.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="monster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
