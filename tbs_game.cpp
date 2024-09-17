@@ -123,14 +123,16 @@ int main()
 			attack(attacker, defender);
 
 
-			if (defender.Hp() <= 0) {
+			if (defender.Hp() <= 0) 
+			{
 				cout << defender.Name() << " has been defeated!" << '\n';
 				break;
 			}
 
 			attack(defender, attacker);
 
-			if (attacker.Hp() <= 0) {
+			if (attacker.Hp() <= 0) 
+			{
 				cout << attacker.Name() << " has been defeated!" << '\n';
 				break;
 			}
