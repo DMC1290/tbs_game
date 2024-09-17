@@ -21,9 +21,15 @@
     <ClCompile Include="monster.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="fight.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="monster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fight.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -127,10 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="fight.cc" />
     <ClCompile Include="monster.cc" />
     <ClCompile Include="tbs_game.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="fight.h" />
     <ClInclude Include="monster.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

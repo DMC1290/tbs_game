@@ -3,12 +3,13 @@
 
 
 
-Monster::Monster(std::string name, int hp, int atk, int def, int speed) :
+
+Monster::Monster(std::string name, int speed, int hp, int def, int atk) :
 	name_(name),
+	speed_(speed),
 	hp_(hp),
-	atk_(atk),
 	def_(def),
-	speed_(speed)
+	atk_(atk)
 {
-	
+
 }
